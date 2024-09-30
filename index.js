@@ -37,3 +37,7 @@ app.listen(3000, function () {
 app.get("/", (req, res) => {
   res.send("Work ok");
 });
+
+app.get("/home", (req, res) => {
+  res.send("Home page work ok");
+});
